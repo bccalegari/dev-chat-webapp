@@ -28,7 +28,6 @@ export const authOptions = {
             clientId: env.PUBLIC.KEYCLOAK_CLIENT_ID || "",
             clientSecret: env.PRIVATE.KEYCLOAK_CLIENT_SECRET || "",
             issuer: env.PUBLIC.KEYCLOAK_ISSUER,
-
         }),
     ],
     callbacks: {
